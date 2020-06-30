@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #2d3436;
+}
+p {
+    color: #4b4b4b;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.hero-img img {
+    width: 115%;
+}
+
+
+.hero-text h1 {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Alte Haas Grotesk", sans-serif;
+}
+
+.nameHighlight {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFA500;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 40px;
+    background: linear-gradient(to right, #467CE2, #21C4DD);
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-text p {
+    padding-bottom: 35px;
+    font-size: 17px;
+}
+
+.hero-area {
+    background-image: url("images/header-bg.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.hero-text {
+    padding-top: 135px;
+    padding-bottom: 50px;
+}
+
+.about-img img {
+    width: 100%;
+}
+.about-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Alte Haas Grotesk", sans-serif;
+}
+
+.about-text {
+    padding-top: 100px;
+}
+
+.about-me {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;    
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+.about-text p {
+    padding-bottom: 35px;
+}
+
+.one-third {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    padding-right: 0;
+}
+.work-img {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.single-img img {
+    width: 100%;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    transition: transform .7s;
+}
+.single-img img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Alte Haas Grotesk", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.work {
+    padding-top: 65px;
+    padding-bottom: 100px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;    
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+.client-identity h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0;
+}
+.client-identity p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonial-text {
+    color: #2D3436;
+    width: 40%;
+    margin: 15px auto;
+    padding: 25px 30px;
+}
+
+.testimonials h2 {
+    padding-bottom: 60px;
+}
+
+.contact {
+    background: linear-gradient(to right, #467CE2, #21C4DD);
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+
+.testimonials {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+}
