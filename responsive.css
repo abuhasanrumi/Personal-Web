@@ -1,0 +1,162 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .half-width {
+        width: 80%;
+    }
+    .about-img img {
+        display: none;
+    }
+    .about-me {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    .about-text {
+        padding-top: 65px;
+    }
+    .one-third {
+        width: 87%;
+    }
+    .single-card:hover {
+        transform: scale(1.05) rotate(1.5deg);
+    }
+    .testimonial-text {
+        width: 75%;
+    }
+    .contact {
+        width: 65%;
+    }
+    .testimonials {
+        padding-bottom: 60px;
+    }
+    .hero-img img {
+        width: 100%;
+        padding-top: 20px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .half-width {
+        width: 80%;
+    }
+    .about-img img {
+        display: none;
+    }
+    .about-me {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    .about-text {
+        padding-top: 65px;
+    }
+    .one-third {
+        width: 87%;
+    }
+    .single-card:hover {
+        transform: scale(1.05) rotate(1.5deg);
+    }
+    .testimonial-text {
+        width: 75%;
+    }
+    .contact {
+        width: 65%;
+    }
+    .testimonials {
+        padding-bottom: 60px;
+    }
+    .hero-img img {
+        width: 100%;
+        padding-top: 20px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .half-width {
+        width: 40%;
+    }
+    .about-img img {
+        display: inherit;
+        padding-top: 50px;
+    }
+    .hero-text {
+        padding-top: 100px;
+    }
+    .nameHighlight {
+        font-size: 45px;
+    }
+    .hero-img img {
+        width: 110%;
+        padding-top: 55px;
+    }
+    .hero-area {
+        padding-bottom: 90px;
+    }
+    .one-third {
+        width: 28.5%;
+    }
+    .single-card h4 {
+        font-size: 16px;
+    }
+    .single-card {
+        padding: 20px;
+    }
+    .single-card.one-third {
+        width: 25%;
+        height: 300px;
+    }
+    .contact {
+        width: 60%;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .one-third {
+        width: 29%;
+    }
+    .single-card.one-third {
+        width: 26%;
+        height: 260px;
+    }
+    .testimonial-text {
+        width: 50%;
+    }
+    .contact {
+        width: 50%;
+    }
+    
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .about-img img {
+        padding-top: 80px;
+    }
+    .about-text {
+        padding-top: 125px;
+    }
+    .nameHighlight {
+        font-size: 50px;
+    }
+    .hero-text {
+        height: auto;
+        padding-top: 140px;
+    }
+    .one-third {
+        width: 30%;
+    }
+    .work-img {
+        margin-left: 4%;
+    }
+    .single-card.one-third {
+        width: 26.5%;
+        height: auto;
+    }
+    .single-card {
+        padding: 24px;
+    }
+    .contact {
+        width: 40%;
+    }
+ } 
