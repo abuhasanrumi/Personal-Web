@@ -41,11 +41,25 @@ p {
     text-decoration: none;
     color: #fff;
     padding: 12px 40px;
+    background: -webkit-gradient(linear, left top, right top, from(#467CE2), to(#21C4DD));
+    background: -o-linear-gradient(left, #467CE2, #21C4DD);
     background: linear-gradient(to right, #467CE2, #21C4DD);
     text-transform: uppercase;
     font-weight: 600;
     border: none;
     border-radius: 5px;
+    display: inline-block;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.btn:hover {
+    -webkit-box-shadow: 10px 10px 0px 0px #ECECEC;
+            box-shadow: 10px 10px 0px 0px #ECECEC;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 .hero-text p {
@@ -109,11 +123,17 @@ p {
     width: 100%;
     border: 1px solid #bdc3c7;
     border-radius: 5px;
+    -webkit-transition: -webkit-transform .7s;
+    transition: -webkit-transform .7s;
+    -o-transition: transform .7s;
     transition: transform .7s;
+    transition: transform .7s, -webkit-transform .7s;
 }
 .single-img img:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    -webkit-transform: scale(1.06);
+        -ms-transform: scale(1.06);
+            transform: scale(1.06);
 }
 
 .heading {
@@ -128,6 +148,75 @@ p {
     padding-top: 65px;
     padding-bottom: 100px;
     background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;    
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+
+.experience-cards {
+    margin-left: 4%;
+    display: inline-block;
+}
+.single-card h3 {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.single-card h4 {
+    font-weight: 500;
+    color: #FFA500;
+    margin: 0;
+    font-size: 17px;
+}
+.single-card {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 20px 0px #C4C4C4;
+            box-shadow: 0px 0px 20px 0px #C4C4C4;
+    margin: 2%;
+    margin-left: 0;
+    padding: 25px;
+    width: 26.7%;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .7s;
+    transition: -webkit-transform .7s;
+    -o-transition: transform .7s;
+    transition: transform .7s;
+    transition: transform .7s, -webkit-transform .7s;
+    border-left: 7px solid;
+}
+#slice-1 {
+    -o-border-image: -o-linear-gradient(#457DE2,#22C2DD);
+       border-image: -webkit-gradient(linear,left top, left bottom,from(#457DE2),to(#22C2DD));
+       border-image: linear-gradient(#457DE2,#22C2DD);
+    border-image-slice: 1;
+}
+#slice-2 {
+    -o-border-image: -o-linear-gradient(#FFA431,#FFCB1B);
+       border-image: -webkit-gradient(linear,left top, left bottom,from(#FFA431),to(#FFCB1B));
+       border-image: linear-gradient(#FFA431,#FFCB1B);
+    border-image-slice: 1;
+}
+#slice-3 {
+    -o-border-image: -o-linear-gradient(#457DE2,#22C2DD);
+       border-image: -webkit-gradient(linear,left top, left bottom,from(#457DE2),to(#22C2DD));
+       border-image: linear-gradient(#457DE2,#22C2DD);
+    border-image-slice: 1;
+}
+.single-card:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px #C4C4C4;
+            box-shadow: 0px 0px 20px 0px #C4C4C4;
+    -webkit-transform: scale(1.08) rotate(3deg);
+        -ms-transform: scale(1.08) rotate(3deg);
+            transform: scale(1.08) rotate(3deg);
+}
+.experience {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;    
     background-size: cover;
     display: inline-block;
@@ -162,11 +251,25 @@ p {
 }
 
 .contact {
+    background: -webkit-gradient(linear, left top, right top, from(#467CE2), to(#21C4DD));
+    background: -o-linear-gradient(left, #467CE2, #21C4DD);
     background: linear-gradient(to right, #467CE2, #21C4DD);
     width: 600px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.contact:hover {
+    opacity: .9;
+    -webkit-box-shadow: 10px 10px 0px 0px #ECECEC;
+            box-shadow: 10px 10px 0px 0px #ECECEC;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 .contact p {
@@ -182,6 +285,7 @@ p {
     padding-bottom: 12px;
     display: inline-block;
 }
+
 
 .testimonials {
     text-align: center;
