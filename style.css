@@ -68,7 +68,7 @@ p {
 }
 
 .hero-area {
-    background-image: url("images/header-bg.png");
+    background-image: url("img/header-bg.png");
     display: inline-block;
     background-repeat: no-repeat;
     background-position: top left;
@@ -97,7 +97,7 @@ p {
 .about-me {
     padding-top: 80px;
     padding-bottom: 30px;
-    background-image: url("images/biography-bg.png");
+    background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;    
     background-size: cover;
     display: inline-block;
@@ -147,7 +147,7 @@ p {
 .work {
     padding-top: 65px;
     padding-bottom: 100px;
-    background-image: url("images/latest-work-bg.png");
+    background-image: url("img/latest-work-bg.png");
     background-repeat: no-repeat;    
     background-size: cover;
     display: inline-block;
@@ -216,7 +216,7 @@ p {
 .experience {
     padding-top: 70px;
     padding-bottom: 100px;
-    background-image: url("images/biography-bg.png");
+    background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;    
     background-size: cover;
     display: inline-block;
@@ -291,7 +291,7 @@ p {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 80px;
-    background-image: url("images/footer-bg.png");
+    background-image: url("img/footer-bg.png");
     background-repeat: no-repeat;    
     background-size: cover;
     background-position: center;
