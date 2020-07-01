@@ -14,7 +14,8 @@
         padding-top: 65px;
     }
     .one-third {
-        width: 87%;
+        width: 80%;
+        margin: 10px auto;
     }
     .single-card:hover {
         transform: scale(1.05) rotate(1.5deg);
@@ -32,6 +33,13 @@
         width: 100%;
         padding-top: 20px;
     }
+    .experience-cards {
+        margin-left: 5%;
+    }
+    .contact a {
+        font-size: 19px;
+    }
+    
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -67,6 +75,12 @@
     .hero-img img {
         width: 100%;
         padding-top: 20px;
+    }
+    .experience-cards {
+        margin-left: 4%;
+    }
+    .contact a {
+        font-size: 25px;
     }
  }
  
